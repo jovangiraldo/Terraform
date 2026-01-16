@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Providers / caches / bins (lo que te está llenando el repo)
+aws/
+awsdist/
+*.zip
+*.so
+*.dll
+*.exe

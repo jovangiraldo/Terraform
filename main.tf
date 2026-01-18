@@ -85,7 +85,7 @@ resource "aws_security_group" "nginx-sg" {
 
 #para crear una clave SSH y poder acceder a la instancia
 #1)Nombre del servidor o tag definido
-#ssh-keygen -t rsa -b 2048 -f "nginx-server.key"
+# para generar llave  ssh primero hay que generarla en la maquina:  ssh-keygen -t rsa -b 2048 -f "nginx-server.key"
 
 #2) Crear el recurso de par de claves en AWS usando la clave pública generada
 #3) Asociar el par de claves a la instancia EC2 (agregar key_name en aws_instance)
